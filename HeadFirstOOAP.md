@@ -1,1 +1,1 @@
-![Chapter](./principles.md)
+[Chapter 1](./principles.md)
