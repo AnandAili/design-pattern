@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="933c0a84-3aa6-4c61-8ee1-7a49d03895a4" name="Changes" comment="add dog door project">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/anand/practice/RemoteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guitar/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/Style.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/Wood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/instrument/Guitar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/instrument/Instrument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/instrument/Mandolin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/instrument/spec/GuitarSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/instrument/spec/InstrumentSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/instrument/spec/MandolinSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/inventory/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guitar/src/test/java/com/anand/design/practice/inventory/InventoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anand/practice/Remote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anand/practice/Remote.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="25TY6lgirJffiQ1j5LH5XknpCye" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ACTIVE_CLOUD_PROJECT_ACCOUNT" value="anand.aili@tacx.com" />
+    <property name="ACTIVE_CLOUD_PROJECT_ID" value="tacx-cloud-beta" />
+    <property name="ACTIVE_CLOUD_PROJECT_NAME" value="tacx-cloud-beta" />
+    <property name="ACTIVE_CLOUD_PROJECT_NUMBER" value="188737751734" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.google.cloudcode.ide_session_index" value="20220224_0002" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4852459" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.anand.design.practice.instrument.spec" />
+      <recent name="com.anand.design.practice" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.anand.design.practice.inventory" />
+      <recent name="com.anand.practice" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RemoteTest.pressButton_alternatepath">
+    <configuration name="RemoteTest.pressButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dag-door" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anand.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anand.practice" />
+      <option name="MAIN_CLASS_NAME" value="com.anand.practice.RemoteTest" />
+      <option name="METHOD_NAME" value="pressButton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoteTest.pressButton_alternatepath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dag-door" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anand.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anand.practice" />
+      <option name="MAIN_CLASS_NAME" value="com.anand.practice.RemoteTest" />
+      <option name="METHOD_NAME" value="pressButton_alternatepath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RemoteTest.pressButton_alternatepath" />
+        <item itemvalue="JUnit.RemoteTest.pressButton" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="933c0a84-3aa6-4c61-8ee1-7a49d03895a4" name="Changes" comment="" />
+      <created>1645552372621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645552372621</updated>
+      <workItem from="1645552374642" duration="2997000" />
+      <workItem from="1645720913574" duration="5130000" />
+    </task>
+    <task id="LOCAL-00001" summary="add dog door project">
+      <created>1645552834920</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645552834920</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add dog door project">
+      <created>1645552916694</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645552916694</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add dog door project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dog door project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/anand/practice/RemoteTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
