@@ -1,11 +1,7 @@
 package com.anand.design.practice.inventory;
 
-import com.anand.design.practice.instrument.Guitar;
 import com.anand.design.practice.instrument.Instrument;
-import com.anand.design.practice.instrument.Mandolin;
-import com.anand.design.practice.instrument.spec.GuitarSpec;
 import com.anand.design.practice.instrument.spec.InstrumentSpec;
-import com.anand.design.practice.instrument.spec.MandolinSpec;
 
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -18,11 +14,7 @@ public class Inventory {
     }
 
     public void addInstrument(String serialNumber, double price, InstrumentSpec spec) {
-        Instrument instrument = null;
-        if(spec instanceof GuitarSpec)
-            instrument = new Guitar(serialNumber, price, (GuitarSpec) spec);
-        else
-            instrument = new Mandolin(serialNumber, price, (MandolinSpec) spec);
+        Instrument instrument = new Instrument(serialNumber, price, spec);
         inventory.add(instrument);
     }
     public Instrument getInstrument(String serialNumber) {
@@ -34,21 +26,13 @@ public class Inventory {
         return null;
     }
 
-    public List search(GuitarSpec spec) {
-        List matchingGuitar = new LinkedList<>();
+    public List search(InstrumentSpec spec) {
+        List matchingInstruments = new LinkedList<>();
         for(Iterator i=inventory.iterator(); i.hasNext();) {
-            Guitar guitar = (Guitar) i.next();
-            if(guitar.getSpec().matches(spec)) matchingGuitar.add(guitar);
+            Instrument instrument = (Instrument) i.next();
+            if(instrument.getSpec().matches(spec)) matchingInstruments.add(instrument);
         }
-        return matchingGuitar;
-    }
-    public List search(MandolinSpec spec) {
-        List matchingMandolina = new LinkedList<>();
-        for(Iterator i=inventory.iterator(); i.hasNext();) {
-            Mandolin mandolin = (Mandolin) i.next();
-            if(mandolin.getSpec().matches(spec)) matchingMandolina.add(mandolin);
-        }
-        return matchingMandolina;
+        return matchingInstruments;
     }
 
 
