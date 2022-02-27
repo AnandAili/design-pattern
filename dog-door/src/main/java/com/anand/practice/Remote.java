@@ -17,14 +17,5 @@ public class Remote {
         }else {
             dogDoor.open();
         }
-
-        final Timer timer = new Timer();
-        timer.schedule(new TimerTask() {
-            @Override
-            public void run() {
-                dogDoor.close();
-                timer.cancel();
-            }
-        }, 5000);
     }
 }

@@ -20,6 +20,7 @@ public class Inventory {
     public Instrument getInstrument(String serialNumber) {
         for(Iterator i = inventory.iterator(); i.hasNext();) {
             Instrument instrument = (Instrument) i.next();
+            // delegation principle
             if(instrument.getSerialNumber().equals(serialNumber))
                 return instrument;
         }

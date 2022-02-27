@@ -5,24 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="933c0a84-3aa6-4c61-8ee1-7a49d03895a4" name="Changes" comment="add dog door project">
-      <change afterPath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/allowedValues/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/allowedValues/InstrumentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/allowedValues/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/allowedValues/Wood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anand/practice/BarkRecognisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsf/board/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsf/board/src/main/java/com/anand/gsf/board/api/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsf/board/src/main/java/com/anand/gsf/board/api/Tile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsf/board/src/main/java/com/anand/gsf/board/api/Unit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsf/board/src/main/java/com/anand/gsf/board/api/UnitGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsf/board/src/main/java/com/anand/gsf/board/api/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsf/board/src/test/java/com/anand/gsf/board/api/UnitGroupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsf/board/src/test/java/com/anand/gsf/board/api/UnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gsf/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guitar/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../guitar/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/Builder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/allowedValues/Style.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/Type.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/Wood.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/instrument/Guitar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/instrument/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/instrument/Instrument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/instrument/Mandolin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/instrument/spec/GuitarSpec.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/instrument/spec/InstrumentSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/instrument/spec/InstrumentSpec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/instrument/spec/MandolinSpec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anand/practice/DogDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anand/practice/DogDoor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anand/practice/Remote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anand/practice/Remote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/inventory/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../guitar/src/main/java/com/anand/design/practice/inventory/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guitar/src/test/java/com/anand/design/practice/inventory/InventoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../guitar/src/test/java/com/anand/design/practice/inventory/InventoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -63,16 +61,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.google.cloudcode.ide_session_index" value="20220225_0009" />
+    <property name="com.google.cloudcode.ide_session_index" value="20220227_0005" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4852459" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.anand.gsf.board.api" />
       <recent name="com.anand.design.practice.instrument.spec" />
       <recent name="com.anand.design.practice" />
     </key>
@@ -80,64 +79,98 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.anand.gsf.board.api" />
       <recent name="com.anand.design.practice.inventory" />
       <recent name="com.anand.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InventoryTest.testSearch">
-    <configuration name="InventoryTest.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="guitar" />
+  <component name="RunManager" selected="JUnit.UnitGroupTest.getUnits">
+    <configuration name="UnitGroupTest.addUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="board" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anand.design.practice.inventory.*" />
+          <option name="PATTERN" value="com.anand.gsf.board.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.anand.design.practice.inventory" />
-      <option name="MAIN_CLASS_NAME" value="com.anand.design.practice.inventory.InventoryTest" />
-      <option name="METHOD_NAME" value="testSearch" />
+      <option name="PACKAGE_NAME" value="com.anand.gsf.board.api" />
+      <option name="MAIN_CLASS_NAME" value="com.anand.gsf.board.api.UnitGroupTest" />
+      <option name="METHOD_NAME" value="addUnit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoteTest.pressButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dag-door" />
+    <configuration name="UnitGroupTest.getUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="board" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anand.practice.*" />
+          <option name="PATTERN" value="com.anand.gsf.board.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.anand.practice" />
-      <option name="MAIN_CLASS_NAME" value="com.anand.practice.RemoteTest" />
-      <option name="METHOD_NAME" value="pressButton" />
+      <option name="PACKAGE_NAME" value="com.anand.gsf.board.api" />
+      <option name="MAIN_CLASS_NAME" value="com.anand.gsf.board.api.UnitGroupTest" />
+      <option name="METHOD_NAME" value="getUnit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoteTest.pressButton_alternatepath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dag-door" />
+    <configuration name="UnitGroupTest.getUnits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="board" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anand.practice.*" />
+          <option name="PATTERN" value="com.anand.gsf.board.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.anand.practice" />
-      <option name="MAIN_CLASS_NAME" value="com.anand.practice.RemoteTest" />
-      <option name="METHOD_NAME" value="pressButton_alternatepath" />
+      <option name="PACKAGE_NAME" value="com.anand.gsf.board.api" />
+      <option name="MAIN_CLASS_NAME" value="com.anand.gsf.board.api.UnitGroupTest" />
+      <option name="METHOD_NAME" value="getUnits" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitGroupTest.removeUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="board" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anand.gsf.board.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anand.gsf.board.api" />
+      <option name="MAIN_CLASS_NAME" value="com.anand.gsf.board.api.UnitGroupTest" />
+      <option name="METHOD_NAME" value="removeUnit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="board" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anand.gsf.board.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anand.gsf.board.api" />
+      <option name="MAIN_CLASS_NAME" value="com.anand.gsf.board.api.UnitTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InventoryTest.testSearch" />
-        <item itemvalue="JUnit.RemoteTest.pressButton_alternatepath" />
-        <item itemvalue="JUnit.RemoteTest.pressButton" />
+        <item itemvalue="JUnit.UnitGroupTest.getUnits" />
+        <item itemvalue="JUnit.UnitGroupTest.getUnit" />
+        <item itemvalue="JUnit.UnitGroupTest.removeUnit" />
+        <item itemvalue="JUnit.UnitGroupTest.addUnit" />
+        <item itemvalue="JUnit.UnitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +183,7 @@
       <option name="presentableId" value="Default" />
       <updated>1645552372621</updated>
       <workItem from="1645552374642" duration="2997000" />
-      <workItem from="1645720913574" duration="12264000" />
+      <workItem from="1645720913574" duration="21688000" />
     </task>
     <task id="LOCAL-00001" summary="add dog door project">
       <created>1645552834920</created>
@@ -195,6 +228,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/anand/practice/RemoteTest.java</url>
           <line>14</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gsf/board/src/test/java/com/anand/gsf/board/api/UnitTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../gsf/board/src/test/java/com/anand/gsf/board/api/UnitGroupTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
